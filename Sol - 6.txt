@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+/*
+int add(int x, int y)
+{
+	return x + y;
+} 
+*/
+
+int main()
+{
+	int a[2] = { 5, 5 };
+	
+	int z = a[0] + a[1];
+	cout<<z<<endl;
+
+
+}

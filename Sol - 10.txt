@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+void add(int *a, int z)
+{
+	cout<<a[0] + a[1]<<endl;
+}
+
+int main()
+{
+	int a[2] = { 5, 5 };
+
+	add(a,2);
+
+}

@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int add(int *a, int z)
+{
+	return a[0] + a[1];
+}
+
+int main()
+{
+	int a[2] = { 5, 5 };
+	cout<<add(a,2)<<endl;
+
+}
